@@ -32,12 +32,8 @@ body {
     font-size: 60px;
 }
 
-.hills{color: #ff3932;
+.myd, .hills{color: #ff3932;
 }
-.myd{color: #ff3932;
-}
-
-
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -56,22 +52,7 @@ a {
     text-decoration: none;
     font-size: 18px;
 }
-.contactlinks {
-    color: #000000;
-    font-size: 38px;
-}
-p {
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.copy {
-    color: #ffffff;
-}
 
-.bullets {
-    font-weight: auto;
-    font-size: 20px;
-}
 .hero {
     height: 800px;
     width: 100%;
@@ -87,19 +68,12 @@ p {
     margin-right: 25px;
 }
 
-.float-right {
-    max-height: 100px;
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 80%;
     display:inline-block;
     margin-left: 20px;
 }
-
-.myself{
+.myself, .portfolio{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -107,6 +81,23 @@ p {
     background-color: #ffffff;
     box-shadow: 10px 5px 5px rgb(182, 174, 174);
     color: #000000;
+}
+/* Size of photos for my face */
+.portfolio img {
+    max-height: 200px;
+    padding: 5px;
+    background-color: #5c5c5c;
+    clip-path:
+    polygon(
+      0% 5%,     /* top left */
+      5% 0%,     /* top left */
+      95% 0%,    /* top right */
+      100% 5%,   /* top right */
+      100% 95%,  /* bottom right */
+      95% 100%,  /* bottom right */
+      5% 100%,   /* bottom left */
+      0 95%      /* bottom left */
+    );
 }
 .myself img{
     max-height: 150px;
@@ -124,63 +115,7 @@ p {
       0 95%      /* bottom left */
     );
 }
-.portfolio{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #ffffff;
-    box-shadow: 10px 5px 5px rgb(182, 174, 174);
-    color: #000000;
-}
-.portfolio img {
-    max-height: 200px;
-    padding: 5px;
-    background-color: #5c5c5c;
-    clip-path:
-    polygon(
-      0% 5%,     /* top left */
-      5% 0%,     /* top left */
-      95% 0%,    /* top right */
-      100% 5%,   /* top right */
-      100% 95%,  /* bottom right */
-      95% 100%,  /* bottom right */
-      5% 100%,   /* bottom left */
-      0 95%      /* bottom left */
-    );
-}
-.contactmething{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #ffffff;
-    box-shadow: 10px 5px 5px rgb(182, 174, 174);
-    color: #000000;
-}
-.project1{
-    border-radius: 4px;
-    width: 150px;
-    max-height: 100px;
-    float: center;
-    margin-left: 25px;
-}
-.contactmething img {
-    max-height: 200px;
-    padding: 5px;
-    background-color: #5c5c5c;
-    clip-path:
-    polygon(
-      0% 5%,     /* top left */
-      5% 0%,     /* top left */
-      95% 0%,    /* top right */
-      100% 5%,   /* top right */
-      100% 95%,  /* bottom right */
-      95% 100%,  /* bottom right */
-      5% 100%,   /* bottom left */
-      0 95%      /* bottom left */
-    );
-}
+/* Hovering effect */
 .whoiam:hover {
     font-size: 20px;
     transition: 0.095s;
@@ -197,11 +132,5 @@ font-weight: bolder;
     font-size: 20px;
     transition: 0.095s;
 background-color: #5e2b2b;
-font-weight: bolder;
-}
-.contactlinks:hover {
-    font-size: 40px;
-    transition: .5s;
-background-color: #ffd1d1;
 font-weight: bolder;
 }
