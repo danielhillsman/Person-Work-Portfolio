@@ -73,20 +73,21 @@ a {
     display:inline-block;
     margin-left: 20px;
 }
-.myself, .portfolio{
-    margin-bottom: 20px;
+.mynameis, .myself, .experience{
+    margin: 20px 20px 20px 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Courier New', Courier, monospace;
     background-color: #ffffff;
     box-shadow: 10px 5px 5px rgb(182, 174, 174);
     color: #000000;
+    position: relative;
 }
 /* Size of photos for my face */
-.portfolio img {
+.experience img {
     max-height: 200px;
-    padding: 5px;
-    background-color: #5c5c5c;
+    padding: 0px 0px 10px 15px;
+    background-color: #e6e1e1;
     clip-path:
     polygon(
       0% 5%,     /* top left */
@@ -96,13 +97,13 @@ a {
       100% 95%,  /* bottom right */
       95% 100%,  /* bottom right */
       5% 100%,   /* bottom left */
-      0 95%      /* bottom left */
+       0 95%      /*bottom left */
     );
 }
 .myself img{
     max-height: 150px;
-    padding: 5px;
-    background-color: #5c5c5c;
+    padding: 0px 0px 5px 10px;
+    background-color: #e6e1e1;
     clip-path:
     polygon(
       0% 5%,     /* top left */
@@ -134,3 +135,45 @@ font-weight: bolder;
 background-color: #5e2b2b;
 font-weight: bolder;
 }
+/* tablet sizes */
+/* for top box */
+@media only screen and (max-width: 950px) {
+    .mynameis, .myself {
+       padding: auto 1% 20% 10%;
+       background-color: #e6e1e1
+    }
+    .experience{
+        padding: 5% 1% 20% 10%;
+        background-color: #e6e1e1;
+ }
+}
+ 
+ @media only screen and (max-width: 600px) {
+    .mynameis, .myself{
+        padding: 2% 10% 70% 10%;
+        background-color: #e6e1e1;
+    }
+    .experience{
+        padding: 5% 1% 80% 5%;
+        background-color: #e6e1e1;
+    }
+    .experience img{
+        max-height: 150px;
+    }
+  
+ }
+ @media only screen and (max-width: 600px) {
+    div ul li {
+        display: inline-block;
+        margin-left: 25px;
+        font-size: 15px;
+    } 
+    .header h1 {
+        font-size: 40px;
+    }
+    a{
+        font-size: 
+        15px;
+    }
+ }
+
