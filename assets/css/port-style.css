@@ -43,7 +43,8 @@ body {
     font-size: 60px;
 }
 
-.myd, .hills{color: #ff3932;
+.myd, .hills{
+    color: #ff3932;
 }
 .header div {
     padding-top: 15px;
@@ -58,9 +59,19 @@ body {
     margin-left: 25px;
 }
 
-
 .realPort{
-    margin: 2px 200px 2px 200px;
+    margin: 50px;
+    text-align: center;
+    padding: 50px;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+    box-shadow: 10px 5px 5px rgb(182, 174, 174);
+    color: #000000;
+    position: relative;
+}
+.contactBox{
+    margin: 20px 130px;
     text-align: center;
     padding: 50px;
     height: auto;
@@ -79,52 +90,48 @@ a {
     font-size: 18px;
 }
 p {
-font-size: 18px;
+    font-size: 18px;
 }
 
 /* Hovering effect */
 .whoiam:hover {
     font-size: 20px;
     transition: 0.095s;
-background-color: #5e3434;
-font-weight: bolder;
+    background-color: #5e3434;
+    font-weight: bolder;
 }
 .myportfolio:hover {
     font-size: 20px;
     transition: 0.095s;
-background-color: #5e2b2b;
-font-weight: bolder;
+    background-color: #5e2b2b;
+    font-weight: bolder;
 }
 .contactme:hover {
     font-size: 20px;
     transition: 0.095s;
-background-color: #5e2b2b;
-font-weight: bolder;
+    background-color: #5e2b2b;
+    font-weight: bolder;
+}
+.aa:hover {
+    font-size: 20px;
+    transition: 0.095s;
+    background-color: #eed2d2;
+    font-weight: bolder;
 }
 /* tablet sizes */
 /* for top box */
 @media only screen and (max-width: 950px) {
-    .mynameis, .myself {
-       padding: auto 1% 20% 10%;
-       background-color: #e6e1e1
-    }
-    .experience{
-        padding: auto 1% 20% 10%;
-        background-color: #e6e1e1;
- }
-}
- 
- @media only screen and (max-width: 600px) {
-    .mynameis, .myself{
-        padding: 2% 10% 70% 10%;
-        background-color: #e6e1e1;
-    }
-    .experience{
-        padding: 5% 1% 80% 5%;
-        background-color: #e6e1e1;
-    }
     .experience img{
         max-height: 150px;
+    }
+    .myself img{
+        max-height: 100px;
+    }
+    .hero{
+        max-height: 300px;
+    }
+    h2 {
+        padding: 10px;
     }
     div ul li {
         display: inline-block;
@@ -137,5 +144,5 @@ font-weight: bolder;
     a{
         font-size: 
         15px;
-    }
+    }   
  }

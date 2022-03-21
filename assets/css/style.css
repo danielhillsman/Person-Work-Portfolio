@@ -35,7 +35,8 @@ body {
     font-size: 60px;
 }
 
-.myd, .hills{color: #ff3932;
+.myd, .hills{
+    color: #ff3932;
 }
 .header div {
     padding-top: 15px;
@@ -60,21 +61,31 @@ a {
     font-size: 18px;
 }
 
-.hero {
+/* Photo of me playing Piano */
+
+/* .hero {
     height: 370px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/background-photo2.jpg");
     background-size: cover;
     background-position: bottom;
-}
+} */
 
+/* Photo of me playing ukulele */
+.hero {
+    height: 370px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/contactme.png");
+    background-size: cover;
+    background-position: center;
+}
 .float-left {
     max-height: 100px;
     float: left;
     margin-right: 25px;
 }
-
 .content {
     width: 80%;
     display:inline-block;
@@ -127,44 +138,38 @@ a {
 .whoiam:hover {
     font-size: 20px;
     transition: 0.095s;
-background-color: #5e3434;
-font-weight: bolder;
+    background-color: #5e3434;
+    font-weight: bolder;
 }
 .myportfolio:hover {
     font-size: 20px;
     transition: 0.095s;
-background-color: #5e2b2b;
-font-weight: bolder;
+    background-color: #5e2b2b;
+    font-weight: bolder;
 }
 .contactme:hover {
     font-size: 20px;
     transition: 0.095s;
-background-color: #5e2b2b;
-font-weight: bolder;
+    background-color: #5e2b2b;
+    font-weight: bolder;
 }
 /* tablet sizes */
 /* for top box */
-@media only screen and (max-width: 950px) {
-    .myself {
-       padding: auto 1% 20% 10%;
-       background-color: #e6e1e1
-    }
-    .mynameis{
-        padding: auto 1% 700% 10%;
-        background-color: #e6e1e1;
-    }
-    .experience{
-        padding: 5% 1% 20% 10%;
-        background-color: #e6e1e1;
- }
-}
- 
+
+
  @media only screen and (max-width: 600px) {
     .experience img{
         max-height: 150px;
     }
- }
- @media only screen and (max-width: 600px) {
+    .myself img{
+        max-height: 100px;
+    }
+    .hero{
+        max-height: 300px;
+    }
+    h2 {
+        padding: 10px;
+    }
     div ul li {
         display: inline-block;
         margin-left: 25px;
@@ -176,6 +181,6 @@ font-weight: bolder;
     a{
         font-size: 
         15px;
-    }
+    }   
  }
 
