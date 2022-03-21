@@ -1,5 +1,13 @@
 .copy{
-    color:white;
+    color: #ffffff;
+}
+.hero {
+    height: 370px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/contactme.png");
+    background-size: cover;
+    background-position: center;
 }
 * {
     box-sizing: border-box;
@@ -50,38 +58,10 @@ body {
     margin-left: 25px;
 }
 
-.aa{
-    color: #000000;
-    text-decoration:underline;
-}
-a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-}
 
-.hero {
-    height: 370px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/background-photo2.jpg");
-    background-size: cover;
-    background-position: bottom;
-}
-
-.float-left {
-    max-height: 100px;
-    float: left;
-    margin-right: 25px;
-}
-
-.content {
-    width: 80%;
-    display:inline-block;
-    margin-left: 20px;
-}
-.mynameis, .myself, .experience{
-    margin: 20px 20px 20px 20px;
+.realPort{
+    margin: 2px 200px 2px 200px;
+    text-align: center;
     padding: 50px;
     height: auto;
     font-family: 'Courier New', Courier, monospace;
@@ -90,39 +70,18 @@ a {
     color: #000000;
     position: relative;
 }
-/* Size of photos for my face */
-.experience img {
-    max-height: 190px;
-    padding: 0px 5px 5px 0px;
-    background-color: #e6e1e1;
-    clip-path:
-    polygon(
-      0% 5%,     /* top left */
-      5% 0%,     /* top left */
-      95% 0%,    /* top right */
-      100% 5%,   /* top right */
-      100% 95%,  /* bottom right */
-      95% 100%,  /* bottom right */
-      5% 100%,   /* bottom left */
-       0 95%      /*bottom left */
-    );
+.aa{
+    color: #000000;
 }
-.myself img{
-    max-height: 150px;
-    padding: 0px 5px 5px 0px;
-    background-color: #e6e1e1;
-    clip-path:
-    polygon(
-      0% 5%,     /* top left */
-      5% 0%,     /* top left */
-      95% 0%,    /* top right */
-      100% 5%,   /* top right */
-      100% 95%,  /* bottom right */
-      95% 100%,  /* bottom right */
-      5% 100%,   /* bottom left */
-      0 95%      /* bottom left */
-    );
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
 }
+p {
+font-size: 18px;
+}
+
 /* Hovering effect */
 .whoiam:hover {
     font-size: 20px;
@@ -145,26 +104,28 @@ font-weight: bolder;
 /* tablet sizes */
 /* for top box */
 @media only screen and (max-width: 950px) {
-    .myself {
+    .mynameis, .myself {
        padding: auto 1% 20% 10%;
        background-color: #e6e1e1
     }
-    .mynameis{
-        padding: auto 1% 700% 10%;
-        background-color: #e6e1e1;
-    }
     .experience{
-        padding: 5% 1% 20% 10%;
+        padding: auto 1% 20% 10%;
         background-color: #e6e1e1;
  }
 }
  
  @media only screen and (max-width: 600px) {
+    .mynameis, .myself{
+        padding: 2% 10% 70% 10%;
+        background-color: #e6e1e1;
+    }
+    .experience{
+        padding: 5% 1% 80% 5%;
+        background-color: #e6e1e1;
+    }
     .experience img{
         max-height: 150px;
     }
- }
- @media only screen and (max-width: 600px) {
     div ul li {
         display: inline-block;
         margin-left: 25px;
@@ -178,4 +139,3 @@ font-weight: bolder;
         15px;
     }
  }
-
