@@ -1,5 +1,13 @@
 .copy{
-    color:white;
+    color: #ffffff;
+}
+.hero {
+    height: 370px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/contactme.png");
+    background-size: cover;
+    background-position: center;
 }
 * {
     box-sizing: border-box;
@@ -51,48 +59,9 @@ body {
     margin-left: 25px;
 }
 
-.aa{
-    color: #000000;
-    text-decoration:underline;
-}
-a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-/* Photo of me playing Piano */
-
-/* .hero {
-    height: 370px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/background-photo2.jpg");
-    background-size: cover;
-    background-position: bottom;
-} */
-
-/* Photo of me playing ukulele */
-.hero {
-    height: 370px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/contactme.png");
-    background-size: cover;
-    background-position: center;
-}
-.float-left {
-    max-height: 100px;
-    float: left;
-    margin-right: 25px;
-}
-.content {
-    width: 80%;
-    display:inline-block;
-    margin-left: 20px;
-}
-.mynameis, .myself, .experience{
-    margin: 20px 20px 20px 20px;
+.realPort{
+    margin: 50px;
+    text-align: center;
     padding: 50px;
     height: auto;
     font-family: 'Courier New', Courier, monospace;
@@ -101,39 +70,29 @@ a {
     color: #000000;
     position: relative;
 }
-/* Size of photos for my face */
-.experience img {
-    max-height: 190px;
-    padding: 0px 5px 5px 0px;
-    background-color: #e6e1e1;
-    clip-path:
-    polygon(
-      0% 5%,     /* top left */
-      5% 0%,     /* top left */
-      95% 0%,    /* top right */
-      100% 5%,   /* top right */
-      100% 95%,  /* bottom right */
-      95% 100%,  /* bottom right */
-      5% 100%,   /* bottom left */
-       0 95%      /*bottom left */
-    );
+.contactBox{
+    margin: 20px 130px;
+    text-align: center;
+    padding: 50px;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+    box-shadow: 10px 5px 5px rgb(182, 174, 174);
+    color: #000000;
+    position: relative;
 }
-.myself img{
-    max-height: 150px;
-    padding: 0px 5px 5px 0px;
-    background-color: #e6e1e1;
-    clip-path:
-    polygon(
-      0% 5%,     /* top left */
-      5% 0%,     /* top left */
-      95% 0%,    /* top right */
-      100% 5%,   /* top right */
-      100% 95%,  /* bottom right */
-      95% 100%,  /* bottom right */
-      5% 100%,   /* bottom left */
-      0 95%      /* bottom left */
-    );
+.aa{
+    color: #000000;
 }
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+p {
+    font-size: 18px;
+}
+
 /* Hovering effect */
 .whoiam:hover {
     font-size: 20px;
@@ -153,11 +112,15 @@ a {
     background-color: #5e2b2b;
     font-weight: bolder;
 }
+.aa:hover {
+    font-size: 20px;
+    transition: 0.095s;
+    background-color: #eed2d2;
+    font-weight: bolder;
+}
 /* tablet sizes */
 /* for top box */
-
-
- @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
     .experience img{
         max-height: 150px;
     }
@@ -183,4 +146,3 @@ a {
         15px;
     }   
  }
-
