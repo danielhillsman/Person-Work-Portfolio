@@ -9,7 +9,6 @@ This is my portfolio website, where I talk about my work experience, past projec
 * [Usage](#usage)
 - [License](#license)
 * [Contributing](#contributing)
-- [Link](#link)
 * [Contact](#contact)
 
 ## Usage
