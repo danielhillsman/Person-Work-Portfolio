@@ -31,4 +31,4 @@ https://github.com/danielhillsman/Person-Work-Portfolio/
 https://danielhillsman.github.io//Person-Work-Portfolio/
 
 ## Contact
-Have any questions? Please contact me at [](daniel.loves.junk@gmail.com). View more of my work in GitHub at [danielhillsman](https://github.com/danielhillsman)
+Have any questions? Please contact me at [(daniel.loves.junk@gmail.com)]. View more of my work in GitHub at [danielhillsman](https://github.com/danielhillsman)
