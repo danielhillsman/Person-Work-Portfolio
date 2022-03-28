@@ -6,11 +6,10 @@ This is my portfolio website, where I talk about my work experience, past projec
 
 ## Table of Contents
 * [Description](#description)
-- [Installation](#installation)
 * [Usage](#usage)
 - [License](#license)
 * [Contributing](#contributing)
-- [Tests](#tests)
+- [Link](#link)
 * [Contact](#contact)
 
 ## Usage
