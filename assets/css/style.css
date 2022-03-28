@@ -153,6 +153,12 @@ a {
     background-color: #5e2b2b;
     font-weight: bolder;
 }
+.myresume:hover {
+    font-size: 20px;
+    transition: 0.095s;
+    background-color: #5e2b2b;
+    font-weight: bolder;
+}
 /* tablet sizes */
 /* for top box */
 
