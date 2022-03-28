@@ -92,7 +92,21 @@ a {
 p {
     font-size: 18px;
 }
-
+.portfolink img{
+    max-width: 40%;
+    height: 250px;
+    padding-top: 10px;
+}
+.thereYet {
+    font-size: larger;
+    color: black;
+    text-decoration: underline;
+}
+.resume {
+    font-size: 75px;
+    color: black;
+    text-decoration:underline;
+}
 /* Hovering effect */
 .whoiam:hover {
     font-size: 20px;
