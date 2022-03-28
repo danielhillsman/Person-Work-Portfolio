@@ -9,6 +9,8 @@ This is my portfolio website, where I talk about my work experience, past projec
 * [Usage](#usage)
 * [License](#license)
 * [Contributing](#contributing)
+* [RepoLink](#repolink)
+* [LiveLink](#livelink)
 * [Contact](#contact)
 
 ## Usage
@@ -22,7 +24,7 @@ This repo has all my info for a personal work portfolio.
 
 I was the only one who made this website.
 
-## Repo Link
+## RepoLink
 https://github.com/danielhillsman/Person-Work-Portfolio/
 
 ## Live link
