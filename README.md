@@ -7,7 +7,7 @@ This is my portfolio website, where I talk about my work experience, past projec
 ## Table of Contents
 * [Description](#description)
 * [Usage](#usage)
-- [License](#license)
+* [License](#license)
 * [Contributing](#contributing)
 * [Contact](#contact)
 
