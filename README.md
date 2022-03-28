@@ -12,6 +12,7 @@ This is my portfolio website, where I talk about my work experience, past projec
 * [RepoLink](#repolink)
 * [LiveLink](#livelink)
 * [Contact](#contact)
+* [Screenshots](#screenshots)
 
 ## Usage
 
@@ -32,3 +33,6 @@ https://danielhillsman.github.io//Person-Work-Portfolio/
 
 ## Contact
 Have any questions? Please contact me at daniel.loves.junk@gmail.com. View more of my work in GitHub at [danielhillsman](https://github.com/danielhillsman)
+
+## Screenshots
+
