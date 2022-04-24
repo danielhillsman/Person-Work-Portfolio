@@ -141,6 +141,23 @@ p {
 /* tablet sizes */
 /* for top box */
 @media only screen and (max-width: 950px) {
+    .contactBox, .realPort{
+        margin: 12px 15px;
+        text-align: center;
+        padding: 50px 0px; 
+        height: auto;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #ffffff;
+        box-shadow: 10px 5px 5px rgb(182, 174, 174);
+        color: #000000;
+        position: relative;
+    }
+    .contactBox p{
+        font-size: 13px
+    }
+    .resume{
+        font-size: 40px;
+    }
     .experience img{
         max-height: 150px;
     }
@@ -153,7 +170,7 @@ p {
     h2 {
         padding: 10px;
     }
-    div ul li {
+    div ul li{
         display: inline-block;
         margin-left: 25px;
         font-size: 15px;
@@ -161,8 +178,4 @@ p {
     .header h1 {
         font-size: 40px;
     }
-    a{
-        font-size: 
-        15px;
-    }   
  }
