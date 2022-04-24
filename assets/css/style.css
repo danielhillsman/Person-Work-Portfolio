@@ -163,7 +163,19 @@ a {
 /* for top box */
 
 
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 950px) {
+
+.mynameis, .myself, .experience{
+    margin: 12px 15px;
+    padding: 50px 0px; 
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+    box-shadow: 10px 5px 5px rgb(182, 174, 174);
+    color: #000000;
+    position: relative;
+}
+     
     .experience img{
         max-height: 150px;
     }
@@ -176,17 +188,14 @@ a {
     h2 {
         padding: 10px;
     }
-    div ul li {
+    div ul li{
         display: inline-block;
         margin-left: 25px;
         font-size: 15px;
     } 
-    .header h1 {
-        font-size: 40px;
+    h1 {
+        font-size: 40px!important;
     }
-    a{
-        font-size: 
-        15px;
-    }   
+
  }
 
