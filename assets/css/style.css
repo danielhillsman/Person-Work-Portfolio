@@ -161,21 +161,24 @@ a {
 }
 /* tablet sizes */
 /* for top box */
-
-
- @media only screen and (max-width: 950px) {
-
-.mynameis, .myself, .experience{
-    margin: 12px 15px;
-    padding: 50px 0px; 
-    height: auto;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #ffffff;
-    box-shadow: 10px 5px 5px rgb(182, 174, 174);
-    color: #000000;
-    position: relative;
-}
-     
+@media only screen and (max-width: 950px){
+    .mynameis, .myself, .experience{
+        margin: 12px 15px;
+        text-align: center;
+        padding: 10px 10px; 
+        height: auto;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #ffffff;
+        box-shadow: 10px 5px 5px rgb(182, 174, 174);
+        color: #000000;
+        position: relative;
+    } 
+    .contactBox p{
+        font-size: 13px;
+    }
+    .resume{
+        font-size: 40px;
+    }
     .experience img{
         max-height: 150px;
     }
@@ -192,10 +195,10 @@ a {
         display: inline-block;
         margin-left: 25px;
         font-size: 15px;
+        display: list-item;
+        
     } 
-    h1 {
+    .header h1 {
         font-size: 40px;
     }
-
- }
-
+}
