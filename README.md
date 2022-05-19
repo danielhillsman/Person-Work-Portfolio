@@ -16,7 +16,7 @@ This is my portfolio website, where I talk about my work experience, past projec
 
 ## Usage
 
-This repo has all my info for a personal work portfolio.
+***HTML*** and ***CSS***
 
 ## License
 ![license](https://img.shields.io/static/v1?label=license&message=Unlicense&color=success)
